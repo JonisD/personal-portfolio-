@@ -1,2 +1,15 @@
-# personal-portfolio-
-My first personal portfolio using html and css 
+# Personal-Portfolio
+
+# DESCRIPTION
+
+# DEPLOYED URL
+
+# TECHNOLOGIES USED
+
+# SCREENSHOTS
+
+# DESKTOP VIEWPORTS
+
+# MOBILE VIEWPORTS
+
+# ABOUT ME
