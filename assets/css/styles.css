@@ -31,7 +31,7 @@
   padding: 8px 25px;
 }
 
-#opening {
+.main {
   display: flex;
   flex-direction: column;
   background-color: black;
@@ -45,7 +45,7 @@
   text-align: center;
 }
 
-.Interests {
+.interests {
   display: flex;
   flex-direction: column;
   background-color: antiquewhite;
@@ -54,26 +54,48 @@
   padding: 20px;
 }
 
-#portfolio {
+.project-cards {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
 }
 
-.row {
+.card1 {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex-direction: column;
+  width: 700px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 15px;
+  background: linear-gradient(to top, rbg(255, 45, 45) 50% white 50%);
+  background-size: 100% 200%;
+  transition: all 0.8s;
+}
+
+.card1:hover {
+  background-position: left bottom;
+  color: white;
+  border: none;
+  box-shadow: 0 0 20px rgb(255, 45, 45);
+}
+.card1 img {
+  width: 650px;
+  height: 300px;
+  background-color: white;
+  padding: 10px;
 }
 
 .box {
-  display: flex;
-  flex-direction: column;
-  width: 350px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
   border: 1px solid black;
-  margin: 10px;
-  align-items: center;
-  text-align: justify;
+  margin: 20px;
   padding: 10px;
+  align-items: center;
   border-radius: 15px;
   background: linear-gradient(to top, rbg(255, 45, 45) 50% white 50%);
   background-size: 100% 200%;
@@ -88,7 +110,8 @@
 }
 
 .box img {
-  width: 300px;
+  width: 450px;
   height: 300px;
   background-color: white;
+  padding: 10px;
 }
