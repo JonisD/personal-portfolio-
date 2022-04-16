@@ -1,37 +1,32 @@
-section {
-  height: 500px;
-  background-color: rgb(239, 239, 241);
-  border: solid black 1px;
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.hero {
-  background-color:rgb(255, 255, 255)
-  height: 100vh;
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  position: sticky;
+  top: 0;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
 }
 
-ul{
-   list-style-type: none;
-   display: flex;
-   width: 500px;
-   justify-content: space-between;
-   font-size: larger;
+.navbar ul li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  font-weight: bolder;
 }
 
-li{
-    width: 200px;
-    text-decoration: none;
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(10, 8, 6);
+  padding: 8px 25px;
 }
-
-.hero-text{
-    text-align: center;
-    font-size: larger;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-
