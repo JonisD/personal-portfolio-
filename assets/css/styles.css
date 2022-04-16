@@ -30,3 +30,17 @@
   color: rgb(10, 8, 6);
   padding: 8px 25px;
 }
+
+#opening {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 840px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.headings {
+  text-align: center;
+}
