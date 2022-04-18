@@ -4,15 +4,19 @@
   box-sizing: border-box;
 }
 
-.p {
+a {
   text-decoration: none;
+}
+
+p {
+  text-align: center;
 }
 
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  background-color: rgb(255, 255, 255);
   position: sticky;
   top: 0;
 }
@@ -38,7 +42,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: rgb(7, 2, 2);
   height: 840px;
   justify-content: center;
   align-items: center;
@@ -50,8 +54,12 @@
 }
 
 .image1 {
+  justify-items: left;
+}
+
+.images {
   justify-content: center;
-  display: block;
+  text-align: center;
 }
 
 .interests {
@@ -73,7 +81,7 @@
 .card1 {
   display: flex;
   flex-direction: column;
-  width: 1000px;
+  width: 1250px;
   height: 500px;
   border: 1px solid black;
   margin: 20px;
@@ -123,4 +131,9 @@
   height: 300px;
   background-color: white;
   padding: 10px;
+}
+
+.socialicons {
+  margin: 10000px;
+  justify-items: center;
 }
