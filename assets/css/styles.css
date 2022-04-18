@@ -1,7 +1,11 @@
- {
+.body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.p {
+  text-decoration: none;
 }
 
 .navbar {
@@ -45,6 +49,11 @@
   text-align: center;
 }
 
+.image1 {
+  justify-content: center;
+  display: block;
+}
+
 .interests {
   display: flex;
   flex-direction: column;
@@ -64,7 +73,7 @@
 .card1 {
   display: flex;
   flex-direction: column;
-  width: 700px;
+  width: 1000px;
   height: 500px;
   border: 1px solid black;
   margin: 20px;
