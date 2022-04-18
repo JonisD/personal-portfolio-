@@ -3,65 +3,50 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 a {
   text-decoration: none;
 }
-
-p {
-  text-align: center;
-}
-
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 255, 255);
-  position: sticky;
+  background-color: grey;
   top: 0;
 }
-
 .navbar ul {
   display: flex;
   list-style: none;
   margin: 20px 0px;
 }
-
 .navbar ul li {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: larger;
   font-weight: bolder;
 }
-
 .navbar ul li a {
   text-decoration: none;
   color: rgb(10, 8, 6);
   padding: 8px 25px;
 }
-
 .main {
   display: flex;
   flex-direction: column;
-  background-color: rgb(7, 2, 2);
+  background-color: black;
   height: 840px;
   justify-content: center;
   align-items: center;
   color: white;
 }
-
 .headings {
   text-align: center;
 }
-
 .image1 {
-  justify-items: left;
+  align-content: center;
 }
-
 .images {
   justify-content: center;
   text-align: center;
 }
-
 .interests {
   display: flex;
   flex-direction: column;
@@ -70,14 +55,12 @@ p {
   align-items: center;
   padding: 20px;
 }
-
 .project-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: justify;
 }
-
 .card1 {
   display: flex;
   flex-direction: column;
@@ -92,7 +75,6 @@ p {
   background-size: 100% 200%;
   transition: all 0.8s;
 }
-
 .card1:hover {
   background-position: left bottom;
   color: white;
@@ -100,12 +82,11 @@ p {
   box-shadow: 0 0 20px rgb(255, 45, 45);
 }
 .card1 img {
-  width: 650px;
-  height: 300px;
+  width: 750px;
+  height: 380px;
   background-color: white;
   padding: 10px;
 }
-
 .box {
   width: 500px;
   height: 500px;
@@ -118,22 +99,47 @@ p {
   background-size: 100% 200%;
   transition: all 0.8s;
 }
-
 .box:hover {
   background-position: left bottom;
   color: white;
   border: none;
   box-shadow: 0 0 20px rgb(255, 45, 45);
 }
-
 .box img {
   width: 450px;
   height: 300px;
   background-color: white;
   padding: 10px;
 }
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
 
-.socialicons {
-  margin: 10000px;
-  justify-items: center;
+@media screen and (max-width: 650px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main img {
+    height: 600px;
+    width: 600px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .card1 {
+    height: 600px;
+    width: 600px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .card1 img {
+    width: 500px;
+    height: 300px;
+  }
 }
