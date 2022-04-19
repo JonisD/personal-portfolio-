@@ -8,7 +8,8 @@ a {
 }
 .navbar {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   background-color: grey;
   top: 0;
@@ -42,6 +43,7 @@ a {
 }
 .image1 {
   align-content: center;
+  justify-items: center;
 }
 .images {
   justify-content: center;
@@ -77,9 +79,9 @@ a {
 }
 .card1:hover {
   background-position: left bottom;
-  color: white;
+  color: rgb(249, 249, 249);
   border: none;
-  box-shadow: 0 0 20px rgb(255, 45, 45);
+  box-shadow: 0 0 20px rgb(45, 255, 118);
 }
 .card1 img {
   width: 750px;
@@ -103,7 +105,7 @@ a {
   background-position: left bottom;
   color: white;
   border: none;
-  box-shadow: 0 0 20px rgb(255, 45, 45);
+  box-shadow: 0 0 20px rgb(23, 44, 150);
 }
 .box img {
   width: 450px;
@@ -122,7 +124,7 @@ a {
   .navbar {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
   }
 }
 @media screen and (max-width: 800px) {
