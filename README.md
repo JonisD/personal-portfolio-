@@ -7,6 +7,8 @@ Moreover, this portfolio also, features unique facts about myself such as my gen
 
 # DEPLOYED URL
 
+[GitHub Deployed link ](https://jonisd.github.io/personal-portfolio-/)
+
 # TECHNOLOGIES USED
 
 HTML and CSS were used to create this portfolio page.
